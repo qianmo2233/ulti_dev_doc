@@ -9,7 +9,7 @@ module.exports = {
         "README.md",
         "email-game.md",
         "inventory.md",
-        "nms.md"
+        "packet.md"
       ]
     }
   ]

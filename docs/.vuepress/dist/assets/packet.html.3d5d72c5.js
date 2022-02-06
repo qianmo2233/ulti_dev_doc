@@ -1,0 +1,1 @@
+const t={key:"v-8831b356",path:"/contents/packet.html",title:"Packet API",lang:"en_US",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u5FEB\u901F\u4E0A\u624B",slug:"\u5FEB\u901F\u4E0A\u624B",children:[]}],git:{updatedTime:null,contributors:[]},filePathRelative:"contents/packet.md"};export{t as data};

@@ -1,4 +1,7 @@
 # 游戏内邮件 <Badge text="UltiTools 5.1.2+" vertical="middle"/>
+::: details 点击展开目录
+[[toc]]
+:::
 UltiTools封装了一个 `EmailUtils` 以供操作游戏内邮件系统的各种功能
 
 所有方法均为静态方法，无需实例化

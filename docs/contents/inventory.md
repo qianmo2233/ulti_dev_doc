@@ -1,12 +1,15 @@
 # Inventory API <Badge text="UltiCore 1.0.0+" vertical="middle"/>
+::: details 点击展开目录
+[[toc]]
+:::
 ## 快速上手
 使用这个API建立一个界面你会体会到无与伦比的快速与简单，你只需要四行代码即可建立一个可用的预设GUI界面。
 ### 实例化PageRegister
 首先你需要在主类创建一个Getter：
 ```java
 public static PageRegister getPageRegister() {
-        return pageRegister;
-    }
+    return pageRegister;
+}
 ```
 ::: warning
 Getter的方法名一定是`getPageRegister`
@@ -148,7 +151,7 @@ void setItem(int position, ItemStack item);
 
 返回：无
 :::
-### void forceSetItem()
+### forceSetItem()
 ::: details 点击查看方法详情
 ```java
 void forceSetItem(int position, ItemStack item) throws IndexOutOfBoundsException;
@@ -166,7 +169,6 @@ void forceSetItem(int position, ItemStack item) throws IndexOutOfBoundsException
 
 抛出：`IndexOutOfBoundsException`
 :::
-
 ### addItem()
 ::: details 点击查看方法详情
 ```java
@@ -177,8 +179,185 @@ void addItem(ItemStack item);
 
 这个方法向一个界面中添加物品，物品会自动堆叠如果物品属性相同。
 
-参数：
-1. `ItemStack` 要设置的物品堆
+参数：`ItemStack` 要设置的物品堆
+
+返回：无
+:::
+### getInventory()
+::: details 点击查看方法详情
+```java
+Inventory getInventory();
+```
+
+获取Inventory对象
+
+在通过这个方法获取InventoryManager的Inventory对象之前，必须先调用[create()](#create)方法，否则会返回null！
+
+参数：无
+
+返回：无
+:::
+### getTitle()
+::: details 点击查看方法详情
+```java
+String getTitle();
+```
+
+获取这个inventory的标题
+
+参数：无
+
+返回：`String` 标题
+:::
+### getGroupTitle()
+::: details 点击查看方法详情
+```java
+String getGroupTitle();
+```
+
+获取这个inventoryManager的组名
+
+组名一般出现在此界面拥有多个页面时。
+
+参数：无
+
+返回：`String` 组名
+:::
+### getSize()
+::: details 点击查看方法详情
+```java
+int getSize();
+```
+
+获取Inventory的大小
+
+在调用这个方法之前，必须先调用[create()](#create)方法。
+
+参数：无
+
+返回：`int` 大小
+:::
+### getPageNumber()
+::: details 点击查看方法详情
+```java
+int getPageNumber();
+```
+
+获取此页面的页码
+
+参数：无
+
+返回：`int` 页码
+:::
+### isPageButtonEnabled()
+::: details 点击查看方法详情
+```java
+boolean isPageButtonEnabled();
+```
+
+获取是否开启了页面按钮
+
+参数：无
+
+返回：`boolean` 是否开启了页面按钮
+:::
+### isLastLineDisabled()
+::: details 点击查看方法详情
+```java
+boolean isLastLineDisabled();
+```
+
+获取最后一行是否不允许设置物品
+
+参数：无
+
+返回：`boolean` 是否最后一行不允许设置物品
+:::
+### clearView()
+::: details 点击查看方法详情
+```java
+void clearView();
+```
+
+清空页面
+
+清除页面上的所有物品。但是如果最后一行被禁止设置，则不会清除最后一行的物品。
+
+参数：无
+
+返回：无
+:::
+### setBackgroundColor()
+::: details 点击查看方法详情
+```java
+void setBackgroundColor(@Nullable Colors backgroundColor);
+```
+
+设置背景颜色。
+
+设置背景颜色，不会覆盖物品。
+
+参数：`Colors` 背景色
+
+返回：无
+:::
+### clearBackGround()
+::: details 点击查看方法详情
+```java
+void clearBackGround();
+```
+
+删除所有背景颜色物品。
+
+参数：无
+
+返回：无
+:::
+### isBackGround()
+::: details 点击查看方法详情
+```java
+boolean isBackGround(@Nullable ItemStack item);
+```
+
+检查一个物品是否为背景颜色物品。
+
+参数：`ItemStack` 要检查的物品堆
+
+返回：`boolean` 是否为背景色物品
+:::
+### setMiddleButton()
+::: details 点击查看方法详情
+```java
+void setMiddleButton(Buttons middleButton);
+```
+
+设置中间按钮
+
+参数：`Buttons` 按钮
+
+返回：无
+:::
+### setPageButtonEnabled()
+::: details 点击查看方法详情
+```java
+void setPageButtonEnabled(boolean isPageButtonEnabled);
+```
+
+设置是否开启翻页按钮
+
+参数：`boolean` 是否开启翻页按钮
+
+返回：无
+:::
+### setLastLineDisabled()
+::: details 点击查看方法详情
+```java
+void setLastLineDisabled(boolean disabled);
+```
+
+设置是否禁止设置GUI最后一排
+
+参数：`boolean` 是否禁止设置GUI最后一排
 
 返回：无
 :::

@@ -1,4 +1,7 @@
 # Packet API <Badge text="UltiCore 1.2.5+" vertical="middle"/>
+::: details 点击展开目录
+[[toc]]
+:::
 ## 快速上手
 和Bukkit的事件监听类似，你需要：
 1. 实现`PacketListener`接口

@@ -7,9 +7,6 @@ actions:
   - text: 快速上手
     link: /contents/
     type: primary
-  - text: API文档
-    link: /contents/
-    type: secondary
 features:
 - title: 接口丰富
   details: UltiKits有大量且便利的方法来帮助功能开发和第三方插件接入
@@ -17,7 +14,7 @@ features:
   details: 基于UltiCore，可使构建的功能和插件支持Spigot大部分版本
 - title: 高性能
   details: UltiKits的每一个功能都做了优化，尽可能使服务器流畅运行
-footer: MIT Licensed | Copyright © 2022-UltiTeam
+footer: LGPL Licensed | Copyright © 2022-UltiTeam
 ---
 ### 数行代码轻松接入
 
