@@ -25,7 +25,7 @@ module.exports = {
           {
               text: 'Tools v5/Core v1',
               children: [
-                  {text: 'Tools v6/Core v2', link: 'https://github.com/users/wisdommen/projects/2' },
+                  {text: 'Tools v6/Core v2', link: 'https://github.com/wisdommen/UltiTools/tree/6.0.0dev' },
                   {text: '更新记录', link: 'https://github.com/wisdommen/UltiTools/releases' },
               ],
           },
