@@ -1,21 +1,28 @@
 ---
-navbar: true
 home: true
-heroText: Ulti Developer
-tagline: 使用UltiKits API构建Spigot插件
-actions:
-  - text: 快速上手
-    link: /contents/
-    type: primary
-features:
-- title: 接口丰富
-  details: UltiKits有大量且便利的方法来帮助功能开发和第三方插件接入
-- title: 多版本兼容
-  details: 基于UltiCore，可使构建的功能和插件支持Spigot大部分版本
-- title: 高性能
-  details: UltiKits的每一个功能都做了优化，尽可能使服务器流畅运行
-footer: LGPL Licensed | Copyright © 2022-UltiTeam
+modules:
+  - BannerBrand
+  - MdContent
+  - Footer
+bannerBrand:
+  heroImage: /icon-512x512.png
+  heroImageStyle:
+    maxWidth: '200px'
+    width: '100%'
+    display: block
+    margin: '0 auto 2rem'
+    borderRadius: '1rem'
+  bgImage: '/bg.svg'
+  heroText: UltiKits API
+  tagline: 众多实用API接口，简单易用，降低开发成本，共同打造Spigot生态
+  buttons:
+    - { text: 开始上手, link: '/dev/' }
+    - { text: API字典, link: '/api/', type: 'plain' }
+isShowTitleInHome: true
+actionText: About
+actionLink: /views/other/about
 ---
+
 ### 数行代码轻松接入
 
 <CodeGroup>
