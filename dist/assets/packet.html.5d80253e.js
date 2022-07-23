@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-58cdb6fc","path":"/docs/dev/packet.html","title":"Packet API","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"\u5FEB\u901F\u4E0A\u624B","slug":"\u5FEB\u901F\u4E0A\u624B","children":[]}],"git":{},"filePathRelative":"docs/dev/packet.md"}');export{e as data};
