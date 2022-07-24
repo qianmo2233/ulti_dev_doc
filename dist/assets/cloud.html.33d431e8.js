@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-58b2268e","path":"/docs/dev/cloud.html","title":"Cloud API","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"createdTime":1657977811000,"updatedTime":1657977811000,"contributors":[{"name":"\u201Cyour_uqianmo2233","email":"67282958@qq.com","commits":1}]},"filePathRelative":"docs/dev/cloud.md"}');export{e as data};

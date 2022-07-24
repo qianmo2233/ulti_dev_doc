@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-0f9cd2dc","path":"/docs/api/indexview.html","title":"\u7D22\u5F15","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"UltiTools","slug":"ultitools","children":[]}],"git":{},"filePathRelative":"docs/api/indexview.md"}');export{e as data};

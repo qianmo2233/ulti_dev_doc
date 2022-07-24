@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-58b2268e","path":"/docs/dev/cloud.html","title":"Cloud API","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{},"filePathRelative":"docs/dev/cloud.md"}');export{e as data};
