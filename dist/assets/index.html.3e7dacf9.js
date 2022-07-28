@@ -1,0 +1,1 @@
+import{_ as t,o as s,c,a as e}from"./app.1cdd8854.js";const a={},o=e("link",{rel:"stylesheet",type:"text/css",href:"/javadoc.css"},null,-1),n=e("iframe",{src:"/javadoc/index.html",id:"javadoc",width:"100%",style:{}},null,-1),l=[o,n];function _(r,d){return s(),c("div",null,l)}var h=t(a,[["render",_],["__file","index.html.vue"]]);export{h as default};

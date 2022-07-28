@@ -1,0 +1,9 @@
+.theme-container .theme-reco-default-content {
+    margin: 0!important;
+    padding: 0!important;
+    min-width: 100%!important;
+}
+iframe {
+    padding-top: 56px!important;
+    min-height: calc(100vh - 1px);
+}
