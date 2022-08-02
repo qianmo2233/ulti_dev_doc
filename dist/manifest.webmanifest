@@ -1,0 +1,16 @@
+{
+  "name": "UltiKits Dev Doc",
+  "short_name": "UltiKits Dev Doc",
+  "description": "A document which can help you Develop wonderful plugins with UltiKits API",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#3eaf7c",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
